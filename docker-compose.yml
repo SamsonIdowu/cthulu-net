@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+  server:
+    build: ./server
+    ports:
+      - "5000:5000"
+  operator-cli:
+    build: ./operator/cli
+    depends_on:
+      - server
+    ports:
+      - "5001:5001"
+  operator-dashboard:
+    image: grafana/grafana
+    ports:
+      - "3000:3000"
+    depends_on:
+      - server
