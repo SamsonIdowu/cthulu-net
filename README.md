@@ -9,6 +9,7 @@
 
 CTHULU is a distributed scanner, which spreads the pool of ip addresses to scan over a group of relatively medium capacity devices (horizontal scaling botnet-style), in order to reduce scan time.
 
+Demo: https://youtu.be/mk22sYc7R1o
 
 # Setup
 
