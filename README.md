@@ -111,6 +111,7 @@ To connect as an operator and schedule scan jobs, connect to the operator cli on
 ![Pasted image 20221102051110.png](__static/Pasted%20image%2020221102051110.png)
 
 # Uml Modelling
+![uml](./UML%20Model.png)
 
   
 
@@ -118,4 +119,3 @@ To connect as an operator and schedule scan jobs, connect to the operator cli on
 
   
 - Add nginx reverse-proxy to `docker-compose.yml`
-- Add Draw.io model
